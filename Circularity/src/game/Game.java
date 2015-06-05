@@ -29,6 +29,7 @@ public class Game extends Canvas implements Runnable {
 	
 	private JFrame frame;
 	
+	// the image
 	private BufferedImage image = new BufferedImage(WIDTH, HEIGHT,
 			BufferedImage.TYPE_INT_RGB);
 	private int[] pixels = ((DataBufferInt) image.getRaster().getDataBuffer())
